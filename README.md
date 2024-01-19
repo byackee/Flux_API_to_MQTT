@@ -3,12 +3,12 @@ Scan and add nodes with your wallet address to MQTT (with Home Assistant discove
 
 ## Requirements:
   * Python3 & pip3
-  * module paho-mqtt (pip3 install paho-mqtt)
+  * module paho-mqtt & requests (pip3 install paho-mqtt)
 
 ## Utilisation:
   1) In both file presearch-discovery.py & presearch.py, modify mqtt variable for connect your broker (ip, port, user, port)
   2) Launch 1 time script "python3 flux_nodes-discovery.py your_api_token"
-  3) Create cron (every 5 minute) to run scrupt "python3 flux_nodes.py your_api_token
+  3) Create cron (every 5 minute {*/5 * * * *}) to run scrupt "python3 flux_nodes.py your_api_token
 
 ## How its work:
 With your cron the script give the main data from flux API and send all to your MQTT broker.
