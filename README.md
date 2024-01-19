@@ -1,5 +1,5 @@
 # Flux_API_to_MQTT
-Send Flux API to MQTT (with Home Assistant discovery)
+Scan and add nodes with your wallet address to MQTT (with Home Assistant discovery)
 
 ## Requirements:
   * Python3 & pip3
