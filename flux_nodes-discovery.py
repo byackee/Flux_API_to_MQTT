@@ -43,8 +43,9 @@ liste = {
     "flux_bench_hdd": ["benchmark", "bench.hdd", "\u200B", "\u200B"],
     "flux_bench_ddwrite": ["benchmark", "bench.ddwrite", "\u200B", "\u200B"],
     "flux_bench_totalstorage": ["benchmark", "bench.totalstorage", "\u200B", "\u200B"],
-
-
+    "flux_bench_eps": ["benchmark", "bench.eps", "\u200B", "\u200B"],
+    "flux_bench_download_speed": ["benchmark", "bench.download_speed", "\u200B", "\u200B"],
+    "flux_bench_upload_speed": ["benchmark", "bench.upload_speed", "\u200B", "\u200B"],
  }
  
 def connect_mqtt():
